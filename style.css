@@ -1,0 +1,150 @@
+/* Inhoud van CSS-bestand contact.css */
+header {
+    height: 120px;
+    background-color: #f16970;
+    color: rgb(7, 1, 1);
+    padding: 5px;
+  }
+
+  body {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    background-color:#b69e7f;
+    margin: 0 auto;
+    max-width: 960px;
+  }
+  
+  input[type="text"],
+  input[type="email"], 
+  button {
+    display: block;
+    margin: 25px 25px;
+    margin-right: 10px;
+    width: 600px;
+    box-sizing: border-box;
+    box-shadow: inset 2px 2px 5px black;
+  }
+  
+  button:active {
+    background-color: rgb(252, 161, 161);
+    color: white;
+    box-shadow: inset 2px 2px 5px black;
+  }
+  
+  nav {
+    display: flex;
+  }
+  
+  nav a {
+    display: block;
+    padding: 10px;
+    color: rgb(12, 7, 31);
+  }
+  
+  nav a:hover {
+    background-color: rgb(117, 39, 39);
+    color: white;
+  }
+  
+  form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  form textarea {
+    display: block;
+    margin: 25px;
+    margin-right: 10px;
+    width: 600px;
+    height: 200px;
+    box-sizing: border-box;
+    box-shadow: inset 2px 2px 5px black;
+  }
+  
+  footer{
+    margin-bottom: 50px;
+    height: 100px;
+    background-color: #f5b4b4;
+    color: rgb(12, 11, 11);
+    padding: 5px;
+  }
+  
+  /* Inhoud van CSS-bestand index.css */
+  header {
+    height: 120px;
+    background-color: #f16970;
+    color: rgb(7, 1, 1);
+  }
+  
+  img{
+    width: 120px;
+    height:120px;
+  }
+  
+  nav {
+    display: flex;
+  }
+  
+  nav a {
+    display: block;
+    padding: 10px;
+    color: rgb(12, 7, 31);
+  }
+  
+  nav a:hover {
+    background-color: rgb(117, 39, 39);
+    color: white;
+  }
+  
+  footer {
+    margin-bottom: 50px;
+    height: 100px;
+    background-color: #f5b4b4;
+    color: rgb(12, 11, 11);
+  }
+  
+  header {
+    font-family: 'redressed', cursive;
+    height: 150px;
+    background-color: #f16970;
+    color: rgb(7, 1, 1);
+  }
+  
+  /* Inhoud van CSS-bestand mijncv.css */
+  nav {
+    display: flex;
+  }
+  
+  nav a {
+    display: block;
+    padding: 10px;
+    color: rgb(12, 11, 14);
+  }
+  
+  nav a:hover {
+    background-color: rgb(117, 39, 39);
+    color: white;
+  }
+  
+  table{
+    border-collapse: collapse;
+  }
+  
+  td, th{
+    padding: 20px 20px;
+  }
+  footer {
+    margin-bottom: 50px;
+    height: 100px;
+    background-color: #f5b4b4;
+    color: rgb(12, 11, 11);
+  }
+  
+  header {
+    font-family: 'redressed', cursive;
+    height: 150px;
+    background-color: #f16970;
+    color: rgb(7, 1, 1);
+  }
